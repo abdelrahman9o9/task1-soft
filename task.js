@@ -7,7 +7,7 @@ const students = [
     "abdo",
     "mona",
     "ali",
-    "sama"
+    "salmaa"
     
 ];
 
@@ -15,7 +15,7 @@ const studentslis = (request , response) => {
     let output = "<ul>";
 
     for(let i = 0; i<students.length; i++){
-        output += "<li>" + students[i]+ "</h1>";
+        output += "<li><h1>" + students[i]+ "</h1></li>";
     }
     output += "</ul>";
     response.send(output);
