@@ -12,10 +12,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 'Beforre'
-        run: ls
       
       - uses:  actions/checkout@v3
       
-      - name: 'Afterr'
-        run: ls
+      - name: "login to docker hub"
+        run: docker login --username abdo9o9 --password dckr_pat_d2-dKm3WGd3LeMlRwOw4a5cUIms
